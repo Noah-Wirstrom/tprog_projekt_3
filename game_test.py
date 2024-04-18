@@ -15,7 +15,8 @@ sprite_x = screen_width/3
 
 sprite_y = screen_height/2
 class sprite
-def __init__(self, )
+def __init__(self, sprite_y, sprite_x ):
+    sprite_y
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Flappig Fågel')
